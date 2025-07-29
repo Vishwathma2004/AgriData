@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043707586953",
+    "project_id": "agridata-640f8",
+    "storage_bucket": "agridata-640f8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043707586953:android:26fa2a380b2b5c67db5958",
+        "android_client_info": {
+          "package_name": "com.example.imagedescriber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043707586953-rgn9qfrgrmsaslkebmgjihhij23ro4ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX2o3Dm9HqH_Makda9U7y8lzcAs85ThFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043707586953-rgn9qfrgrmsaslkebmgjihhij23ro4ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

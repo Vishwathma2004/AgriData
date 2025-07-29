@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ViewImageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image Preview -->
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="Image Preview" />
+
+        <!-- Farmer Name -->
+        <EditText
+            android:id="@+id/edit_farmer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Farmer Name"
+            android:inputType="textCapWords"
+            android:layout_marginTop="12dp" />
+
+        <!-- Plant Name (Title) -->
+        <EditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Plant Name"
+            android:inputType="textCapWords"
+            android:layout_marginTop="8dp" />
+
+        <!-- Disease Name (Description) -->
+        <EditText
+            android:id="@+id/edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Disease Name"
+            android:inputType="textCapWords"
+            android:layout_marginTop="8dp" />
+
+        <!-- Plant Disease (New Field) -->
+        <EditText
+            android:id="@+id/edit_plant_disease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Plant Disease"
+            android:inputType="textCapWords"
+            android:layout_marginTop="8dp" />
+
+        <!-- Location -->
+        <EditText
+            android:id="@+id/edit_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:enabled="false"
+            android:focusable="false"
+            android:layout_marginTop="8dp" />
+
+        <!-- Optional Display TextView -->
+        <TextView
+            android:id="@+id/location_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="4dp"
+            android:text="Location will appear here" />
+
+        <!-- Timestamp -->
+        <EditText
+            android:id="@+id/edit_timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Timestamp"
+            android:enabled="false"
+            android:focusable="false"
+            android:layout_marginTop="8dp" />
+
+        <!-- Additional Notes -->
+        <EditText
+            android:id="@+id/edit_additional_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additional Notes"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:layout_marginTop="8dp" />
+
+        <!-- Update Button -->
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginTop="16dp" />
+
+        <!-- Export PDF Button -->
+        <Button
+            android:id="@+id/btn_export_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export PDF"
+            android:layout_marginTop="12dp" />
+
+
+    </LinearLayout>
+</ScrollView>

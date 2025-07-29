@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Agriculture-Themed Colors -->
+    <color name="colorPrimary">#4CAF50</color>         <!-- Earth Green -->
+    <color name="colorPrimaryDark">#388E3C</color>     <!-- Darker Earth Green -->
+    <color name="colorAccent">#FFEB3B</color>          <!-- Sun Yellow -->
+    <color name="teal_700">#018786</color> <!-- Material default teal -->
+
+    <!-- Optional Nature Colors -->
+    <color name="leafGreen">#81C784</color>            <!-- Lighter Leafy Green -->
+    <color name="soilBrown">#5D4037</color>            <!-- Soil / Earthy Brown -->
+    <color name="skyBlue">#AEDFF7</color>              <!-- Sky Blue -->
+    <color name="creamWhite">#FFFDE7</color>           <!-- Light Cream Background -->
+    <color name="cardBackground">#E8F5E9</color>       <!-- Soft Green Card BG -->
+    <color name="backgroundColor">#F0F4E1</color> <!-- Light earthy green -->
+
+    <!-- Keep existing custom tones if still needed -->
+    <color name="purple_500">#a46ede</color>
+    <color name="lavender">#E6E6FA</color>
+</resources>

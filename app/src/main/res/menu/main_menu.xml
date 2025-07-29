@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Sync Button -->
+    <item
+        android:id="@+id/action_sync"
+        android:icon="@drawable/sync"
+        android:title="Sync"
+        app:showAsAction="always" />
+
+    <!-- Logout Button -->
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        app:showAsAction="always|withText" />
+
+</menu>

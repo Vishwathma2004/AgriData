@@ -1,0 +1,6 @@
+<!-- res/drawable/error_image.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF0000"/> <!-- Red color for error -->
+    <size android:width="50dp" android:height="50dp"/> <!-- Size of the error image -->
+    <corners android:radius="8dp"/> <!-- Optional: Rounded corners -->
+</shape>
