@@ -1,5 +1,5 @@
 # 🌾 AgriData App
-ImageDescriber is an Android application that allows users (farmers or field workers) to **capture, upload, and manage agricultural images** with detailed metadata. It supports **Cloudinary integration**, **SQLite local storage**, **Firebase Authentication**, and **PDF report generation** for field reports.
+AgriData is an Android application that allows users (farmers or field workers) to **capture, upload, and manage agricultural images** with detailed metadata. It supports **Cloudinary integration**, **SQLite local storage**, **Firebase Authentication**, and **PDF report generation** for field reports.
 ---
 ## 🚀 Features
 ✅ **Capture or Upload Images** – Take photos with the camera or select images from files  
